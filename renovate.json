@@ -33,15 +33,21 @@
     },
     {
       "matchPackageNames": [
-        "mysql"
+        "golang"
       ],
-      "additionalBranchPrefix": "mysql-"
+      "additionalBranchPrefix": "golang-"
     },
     {
       "packagePatterns": [
         ".*playwright.*"
       ],
       "additionalBranchPrefix": "playwright-"
+    },
+    {
+      "matchPackageNames": [
+        "mysql"
+      ],
+      "additionalBranchPrefix": "mysql-"
     }
   ]
 }
