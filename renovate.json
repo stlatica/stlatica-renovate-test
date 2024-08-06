@@ -4,18 +4,30 @@
     "config:recommended",
     "group:allNonMajor"
   ],
-  "prHourlyLimit": 100,
+  "prHourlyLimit": 9999,
   "packageRules": [
     {
-      "managers": ["gomod"],
+      "managers": [
+        "gomod"
+      ],
+      "commitMessage": "gomod - {{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}",
       "additionalBranchPrefix": "{{parentDir}}-",
-      "packagePatterns": [".*"]
+      "packagePatterns": [
+        ".*"
+      ]
     },
     {
-      "managers": ["dockerfile"],
-      "additionalBranchPrefix": "{{parentDir}}-",
-      "packagePatterns": [".*"]
+      "matchPackageNames": [
+        "playwright"
+      ],
+      "additionalBranchPrefix": "playwright-"
+    },
+    {
+      "matchPackageNames": [
+        "mysql"
+      ],
+      "additionalBranchPrefix": "mysql-"
     }
   ],
-  "additionalBranchPrefix": "{{baseDir}}-",
+  "additionalBranchPrefix": "{{baseDir}}-"
 }
