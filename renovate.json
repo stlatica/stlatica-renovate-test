@@ -5,8 +5,8 @@
     "group:allNonMajor",
     "group:monorepos"
   ],
-  "prHourlyLimit": 9999,
-  "concurrentRequestLimit": 9999,
+  "prHourlyLimit": 0,
+  "prConcurrentLimit": 0,
   "packageRules": [
     {
       "managers": [
