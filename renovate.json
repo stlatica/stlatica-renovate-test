@@ -15,7 +15,7 @@
       ],
       "extends": [
         "group:allNonMajor",
-        "config:js-app"
+        ":pinAllExceptPeerDependencies"
       ],
       "commitMessage": "npm - {{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}",
       "additionalBranchPrefix": "{{parentDir}}-",
