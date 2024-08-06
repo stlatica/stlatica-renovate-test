@@ -11,7 +11,12 @@
       "managers": [
         "npm"
       ],
-      "commitMessage": "npm - {{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}",
+      "commitMessage": "npm - {{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}"
+    },
+    {
+      "managers": [
+        "npm"
+      ],
       "additionalBranchPrefix": "{{parentDir}}-",
       "packagePatterns": [
         ".*"
