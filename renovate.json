@@ -22,7 +22,8 @@
         ".*"
       ],
       "ignoreDeps": [
-        "playwright"
+        "playwright",
+        "@types/node"
       ]
     },
     {
