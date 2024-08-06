@@ -14,8 +14,7 @@
         "npm"
       ],
       "extends": [
-        "group:allNonMajor",
-        ":pinAllExceptPeerDependencies"
+        "group:allNonMajor"
       ],
       "commitMessage": "npm - {{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}",
       "additionalBranchPrefix": "{{parentDir}}-",
