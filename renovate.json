@@ -1,7 +1,8 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:recommended"
+    "config:recommended",
+    "group:allNonMajor"
   ],
   "prHourlyLimit": 0,
   "prConcurrentLimit": 0,
@@ -10,14 +11,28 @@
       "managers": [
         "npm"
       ],
-      "extends": [
-        "group:allNonMajor"
-      ],
       "commitMessage": "npm - {{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}",
       "additionalBranchPrefix": "{{parentDir}}-",
       "packagePatterns": [
         ".*"
+      ],
+      "ignoreDeps": [
+        "playwright"
       ]
+    },
+    {
+      "matchPackageNames": [
+        "node"
+      ],
+      "commitMessage": "node - {{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}",
+      "additionalBranchPrefix": "{{parentDir}}-"
+    },
+    {
+      "matchPackageNames": [
+        "pnpm"
+      ],
+      "commitMessage": "pnpm - {{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}",
+      "additionalBranchPrefix": "{{parentDir}}-"
     },
     {
       "managers": [
@@ -25,7 +40,6 @@
         "dockerfile",
         "devcontainer"
       ],
-      "ignoreDeps": [],
       "matchPackageNames": [
         "@playwright/test",
         "mcr.microsoft.com/playwright"
@@ -37,14 +51,25 @@
       "managers": [
         "gomod"
       ],
-      "extends": [
-        "group:allNonMajor"
-      ],
       "commitMessage": "gomod - {{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}",
       "additionalBranchPrefix": "{{parentDir}}-",
       "packagePatterns": [
         ".*"
       ]
+    },
+    {
+      "matchPackageNames": [
+        "golang"
+      ],
+      "commitMessage": "golang - {{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}",
+      "additionalBranchPrefix": "golang-"
+    },
+    {
+      "matchPackageNames": [
+        "mysql"
+      ],
+      "commitMessage": "mysql - {{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}",
+      "additionalBranchPrefix": "mysql-"
     }
   ]
 }
