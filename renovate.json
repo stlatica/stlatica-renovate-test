@@ -6,12 +6,23 @@
   ],
   "prHourlyLimit": 9999,
   "concurrentRequestLimit": 9999,
+  "additionalBranchPrefix": "{{baseDir}}-",
   "packageRules": [
     {
       "managers": [
         "gomod"
       ],
       "commitMessage": "gomod - {{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}",
+      "additionalBranchPrefix": "{{parentDir}}-",
+      "packagePatterns": [
+        ".*"
+      ]
+    },
+    {
+      "managers": [
+        "npm"
+      ],
+      "commitMessage": "npm - {{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}",
       "additionalBranchPrefix": "{{parentDir}}-",
       "packagePatterns": [
         ".*"
@@ -29,6 +40,5 @@
       ],
       "additionalBranchPrefix": "mysql-"
     }
-  ],
-  "additionalBranchPrefix": "{{baseDir}}-"
+  ]
 }
