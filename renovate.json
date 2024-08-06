@@ -26,6 +26,9 @@
       "additionalBranchPrefix": "{{parentDir}}-",
       "packagePatterns": [
         ".*"
+      ],
+      "ignoreDeps": [
+        "playwright"
       ]
     },
     {
@@ -33,6 +36,12 @@
         "mysql"
       ],
       "additionalBranchPrefix": "mysql-"
+    },
+    {
+      "packagePatterns": [
+        ".*playwright.*"
+      ],
+      "additionalBranchPrefix": "playwright-"
     }
   ]
 }

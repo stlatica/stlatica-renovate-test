@@ -30,7 +30,13 @@
     },
     {
       "matchPackageNames": [
-        "playwright"
+        "golang"
+      ],
+      "additionalBranchPrefix": "golang-"
+    },
+    {
+      "packagePatterns": [
+        ".*playwright.*"
       ],
       "additionalBranchPrefix": "playwright-"
     },
