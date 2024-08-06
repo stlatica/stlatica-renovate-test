@@ -14,7 +14,8 @@
         "npm"
       ],
       "extends": [
-        "group:allNonMajor"
+        "group:allNonMajor",
+        "config:js-app"
       ],
       "commitMessage": "npm - {{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}",
       "additionalBranchPrefix": "{{parentDir}}-",
