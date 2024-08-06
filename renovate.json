@@ -9,16 +9,6 @@
   "packageRules": [
     {
       "managers": [
-        "gomod"
-      ],
-      "commitMessage": "gomod - {{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}",
-      "additionalBranchPrefix": "{{parentDir}}-",
-      "packagePatterns": [
-        ".*"
-      ]
-    },
-    {
-      "managers": [
         "npm"
       ],
       "commitMessage": "npm - {{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}",
@@ -32,9 +22,17 @@
     },
     {
       "matchPackageNames": [
-        "golang"
+        "node"
       ],
-      "additionalBranchPrefix": "golang-"
+      "commitMessage": "node - {{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}",
+      "additionalBranchPrefix": "{{parentDir}}-"
+    },
+    {
+      "matchPackageNames": [
+        "pnpm"
+      ],
+      "commitMessage": "pnpm - {{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}",
+      "additionalBranchPrefix": "{{parentDir}}-"
     },
     {
       "managers": [
@@ -46,12 +44,31 @@
         "@playwright/test",
         "mcr.microsoft.com/playwright"
       ],
+      "commitMessage": "playwright - {{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}",
       "additionalBranchPrefix": "playwright-"
+    },
+    {
+      "managers": [
+        "gomod"
+      ],
+      "commitMessage": "gomod - {{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}",
+      "additionalBranchPrefix": "{{parentDir}}-",
+      "packagePatterns": [
+        ".*"
+      ]
+    },
+    {
+      "matchPackageNames": [
+        "golang"
+      ],
+      "commitMessage": "golang - {{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}",
+      "additionalBranchPrefix": "golang-"
     },
     {
       "matchPackageNames": [
         "mysql"
       ],
+      "commitMessage": "mysql - {{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}",
       "additionalBranchPrefix": "mysql-"
     }
   ]
