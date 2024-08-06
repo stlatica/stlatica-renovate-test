@@ -5,6 +5,7 @@
     "group:allNonMajor"
   ],
   "prHourlyLimit": 9999,
+  "concurrentRequestLimit": 9999,
   "packageRules": [
     {
       "managers": [
