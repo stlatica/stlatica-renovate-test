@@ -5,6 +5,9 @@
   ],
   "prHourlyLimit": 0,
   "prConcurrentLimit": 0,
+  "ignoreDeps": [
+    "playwright"
+  ],
   "packageRules": [
     {
       "managers": [
@@ -17,9 +20,6 @@
       "additionalBranchPrefix": "{{parentDir}}-",
       "packagePatterns": [
         ".*"
-      ],
-      "ignoreDeps": [
-        "playwright"
       ]
     },
     {
