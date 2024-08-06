@@ -5,9 +5,6 @@
   ],
   "prHourlyLimit": 0,
   "prConcurrentLimit": 0,
-  "ignoreDeps": [
-    "playwright"
-  ],
   "packageRules": [
     {
       "managers": [
@@ -28,6 +25,7 @@
         "dockerfile",
         "devcontainer"
       ],
+      "ignoreDeps": [],
       "matchPackageNames": [
         "@playwright/test",
         "mcr.microsoft.com/playwright"
