@@ -27,7 +27,8 @@
     },
     {
       "matchPackageNames": [
-        "node"
+        "node",
+        "@types/node"
       ],
       "commitMessage": "node - {{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}",
       "additionalBranchPrefix": "{{parentDir}}-"
