@@ -2,5 +2,18 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended"
-  ]
+  ],
+  "packageRules": [
+    {
+      "managers": ["gomod"],
+      "additionalBranchPrefix": "{{parentDir}}-",
+      "packagePatterns": [".*"]
+    },
+    {
+      "managers": ["dockerfile"],
+      "additionalBranchPrefix": "{{parentDir}}-",
+      "packagePatterns": [".*"]
+    }
+  ],
+  "additionalBranchPrefix": "{{baseDir}}-",
 }
