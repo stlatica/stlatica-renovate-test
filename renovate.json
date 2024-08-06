@@ -42,8 +42,9 @@
         "dockerfile",
         "devcontainer"
       ],
-      "packagePatterns": [
-        "*playwright*"
+      "matchPackageNames": [
+        "@playwright/test",
+        "mcr.microsoft.com/playwright"
       ],
       "additionalBranchPrefix": "playwright-"
     },
