@@ -3,6 +3,7 @@
   "extends": [
     "config:recommended"
   ],
+  "prHourlyLimit": 100,
   "packageRules": [
     {
       "managers": ["gomod"],
