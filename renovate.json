@@ -11,6 +11,9 @@
       "managers": [
         "npm"
       ],
+      "assignees": [
+        "para7"
+      ],
       "commitMessage": "npm - {{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}"
     },
     {
@@ -20,6 +23,9 @@
       "additionalBranchPrefix": "{{parentDir}}-",
       "packagePatterns": [
         ".*"
+      ],
+      "assignees": [
+        "para7"
       ],
       "ignoreDeps": [
         "playwright",
@@ -31,12 +37,18 @@
         "node",
         "@types/node"
       ],
+      "assignees": [
+        "para7"
+      ],
       "commitMessage": "node - {{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}",
       "additionalBranchPrefix": "{{parentDir}}-"
     },
     {
       "matchPackageNames": [
         "pnpm"
+      ],
+      "assignees": [
+        "para7"
       ],
       "commitMessage": "pnpm - {{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}",
       "additionalBranchPrefix": "{{parentDir}}-"
@@ -46,6 +58,9 @@
         "npm",
         "dockerfile",
         "devcontainer"
+      ],
+      "assignees": [
+        "para7"
       ],
       "matchPackageNames": [
         "@playwright/test",
@@ -58,6 +73,9 @@
       "managers": [
         "gomod"
       ],
+      "assignees": [
+        "cotton-alta"
+      ],
       "commitMessage": "gomod - {{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}",
       "additionalBranchPrefix": "{{parentDir}}-",
       "packagePatterns": [
@@ -68,12 +86,18 @@
       "matchPackageNames": [
         "golang"
       ],
+      "assignees": [
+        "cotton-alta"
+      ],
       "commitMessage": "golang - {{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}",
       "additionalBranchPrefix": "golang-"
     },
     {
       "matchPackageNames": [
         "mysql"
+      ],
+      "assignees": [
+        "cotton-alta"
       ],
       "commitMessage": "mysql - {{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}",
       "additionalBranchPrefix": "mysql-"
