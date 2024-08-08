@@ -5,7 +5,7 @@
     "group:allNonMajor"
   ],
   "labels": [
-    "renovate"
+    "dependencies"
   ],
   "prHourlyLimit": 0,
   "prConcurrentLimit": 0,
