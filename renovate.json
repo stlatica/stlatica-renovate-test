@@ -17,10 +17,7 @@
       "assignees": [
         "para7"
       ],
-      "labels": [
-        "dependencies"
-      ],
-      "commitMessage": "npm - {{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}"
+      "commitMessage": "npm r1 - {{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}"
     },
     {
       "managers": [
@@ -33,9 +30,7 @@
       "assignees": [
         "para7"
       ],
-      "labels": [
-        "dependencies"
-      ],
+      "commitMessage": "npm r2 - {{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}",
       "ignoreDeps": [
         "playwright",
         "@types/node"
@@ -49,9 +44,6 @@
       "assignees": [
         "para7"
       ],
-      "labels": [
-        "dependencies"
-      ],
       "commitMessage": "node - {{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}",
       "additionalBranchPrefix": "{{parentDir}}-"
     },
@@ -61,9 +53,6 @@
       ],
       "assignees": [
         "para7"
-      ],
-      "labels": [
-        "dependencies"
       ],
       "commitMessage": "pnpm - {{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}",
       "additionalBranchPrefix": "{{parentDir}}-"
@@ -76,9 +65,6 @@
       ],
       "assignees": [
         "para7"
-      ],
-      "labels": [
-        "dependencies"
       ],
       "matchPackageNames": [
         "@playwright/test",
@@ -94,9 +80,6 @@
       "assignees": [
         "cotton-alta"
       ],
-      "labels": [
-        "dependencies"
-      ],
       "commitMessage": "gomod - {{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}",
       "additionalBranchPrefix": "{{parentDir}}-",
       "packagePatterns": [
@@ -110,9 +93,6 @@
       "assignees": [
         "cotton-alta"
       ],
-      "labels": [
-        "dependencies"
-      ],
       "commitMessage": "golang - {{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}",
       "additionalBranchPrefix": "golang-"
     },
@@ -122,9 +102,6 @@
       ],
       "assignees": [
         "cotton-alta"
-      ],
-      "labels": [
-        "dependencies"
       ],
       "commitMessage": "mysql - {{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}",
       "additionalBranchPrefix": "mysql-"
