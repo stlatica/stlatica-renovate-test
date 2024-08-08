@@ -14,15 +14,6 @@
       "managers": [
         "npm"
       ],
-      "assignees": [
-        "para7"
-      ],
-      "commitMessage": "npm r1 - {{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}"
-    },
-    {
-      "managers": [
-        "npm"
-      ],
       "additionalBranchPrefix": "{{parentDir}}-",
       "packagePatterns": [
         ".*"
@@ -30,7 +21,7 @@
       "assignees": [
         "para7"
       ],
-      "commitMessage": "npm r2 - {{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}",
+      "commitMessage": "npm - {{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}",
       "ignoreDeps": [
         "playwright",
         "@types/node"
